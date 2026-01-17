@@ -25,7 +25,7 @@ document.querySelector('form').addEventListener('submit', function(e) {
     };
     
     // Send to Google Apps Script
-    fetch('https://docs.google.com/spreadsheets/d/1d-xdwn9MnWpWvxaZVi2911fg5kBN8oq7ApGuf-bWQQc/edit?gid=0#gid=0', { // Replace with your deployed URL
+    fetch('AKfycbzSnC5yq8pqjsQtlcW8fk_Y_vX4HBFoipFAK2loNHM', { // Replace with your deployed URL
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -45,4 +45,5 @@ document.querySelector('form').addEventListener('submit', function(e) {
     .catch(error => {
         alert('Network error: ' + error.message);
     });
+
 });
