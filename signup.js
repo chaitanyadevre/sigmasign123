@@ -25,7 +25,7 @@ document.querySelector('form').addEventListener('submit', function(e) {
     };
     
     // Send to Google Apps Script
-    fetch('AKfycbzSnC5yq8pqjsQtlcW8fk_Y_vX4HBFoipFAK2loNHM', { // Replace with your deployed URL
+    fetch('https://docs.google.com/spreadsheets/d/1d-xdwn9MnWpWvxaZVi2911fg5kBN8oq7ApGuf-bWQQc/edit?usp=sharing', { // Replace with your deployed URL
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -47,3 +47,4 @@ document.querySelector('form').addEventListener('submit', function(e) {
     });
 
 });
+
